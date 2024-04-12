@@ -1,7 +1,6 @@
-// React hai na vo jo bhi apka element hai usse tree banane ki koshish krta hai!
-// first thing jo react krta hai vo hai type, type btata hai ki apka element kis type ka hai? second
-// hota hai properties ye props ek object hota hai ye props ke andr jitni chahte properties app add kr do!
-//
+// React tries to make a tree from your element!
+// first thing that react does is tell the type that what type element that is!
+
 function customRender(reactElement, mainContainer) {
   // first we will create dom element and then we will append it
   const domElement = document.createElement(reactElement.type);
